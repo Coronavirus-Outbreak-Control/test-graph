@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+
+body {
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.links line {
+  stroke: grey;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.point {
+  background-color: red;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  z-index: 1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tooltip {
+  position: absolute;
+  background-color: lightgrey;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.origin {
+  width: 20px;
+  height: 20px;
+  background-color: dimgrey;
+  position: absolute;
+  border-radius: 40px;
+  top: 200px;
+  left: 400px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tel1{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  border-radius: 40px;
+  top: 200px;
+  left: 200px
+}
+.tel2{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  border-radius: 40px;
+  top: 100px;
+  left: 400px
+}
+.tel3{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  border-radius: 40px;
+  top: 200px;
+  left: 600px
+
+}
+
+
+.line1 {
+  width: 200px;
+  height: 1px;
+  position: absolute;
+  top: 210px;
+  left: 210px;
+  background-color: green;
+}
+.line2 {
+  width: 1px;
+  height: 100px;
+  position: absolute;
+  top: 110px;
+  left: 410px;
+  background-color: blue;
+}
+.line3 {
+  width: 200px;
+  height: 1px;
+  position: absolute;
+  top: 210px;
+  left: 410px;
+  background-color: orange;
 }
